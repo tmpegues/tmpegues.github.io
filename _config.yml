@@ -45,8 +45,8 @@ author:
 # keybase           : your_username
 
 
-### Posts ###
-permalink: /blog/:title
+# ### Posts ###
+# permalink: /blog/:title
 
 
 ### Collections ###
@@ -92,9 +92,9 @@ defaults:
       type: "elements"                                  # For Documentation Only
     values:                                             # For Documentation Only
       layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
+  # - scope:
+  #     path: ""
+  #     type: "posts"
     values:
       comments: false                                   # Set to true to enable disqus comments
 
