@@ -8,7 +8,9 @@ description: Developed ROS 2 packages to use a FER arm to pick up and sort movin
 ## Overview
 This project was completed for Northwestern's [MECH_ENG 450: Embedded Systems in Robotics](https://www.mccormick.northwestern.edu/mechanical/academics/courses/descriptions/450-embedded-systems-in-robotics.html). My teammates were Rishika Bera, Nolan Knight, and Halley Zhong, all MSR '26.
 
-My team chose sorting HexBugs by color as the task for our Franka arm to perform. This task was split into 3 main tasks: determining the location of our camera relative to the robot, determining the positions of the points of interest (HexBugs, sorting locations) relative to the camera, then moving the robot based on that information. My primary focus was motion, but this was a collaborative effort and I did make contributions to vision well.
+My team chose sorting HexBugs by color as the task for our Franka arm to perform. This idea was split into 3 main sub-tasks: determining the location of our camera relative to the robot, determining the positions of the points of interest (HexBugs, locations to sort to) relative to the camera, then moving the robot based on that information. My primary focus was motion, but this was a collaborative effort and I made contributions to vision and designed a part to reliably locate our wooden arena around the base of the robot.
+
+{% include elements/figure.html image="https://tmpegues.github.io/assets/bug1.png" caption="The FER arm picking up a turtle/HexBug" %}
 
 ### Motion
 
