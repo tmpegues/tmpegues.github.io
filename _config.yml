@@ -17,13 +17,14 @@ nav_exclude:                                            # The following paths ar
   - pages/tags.html
   - pages/404.html
   - pages/index.md
+  - blog/**
   - documentation/partials/**                           # For Documentation Only
 
 
 ### Author Info ###
 author:
   name              : Toussaint M. Pegues
-  image             : https://i.imgur.com/uyDNQnn.jpg
+  # image             : https://i.imgur.com/uyDNQnn.jpg
   # behance           : your_username
 # dribbble          : your_username
   email             : toumigpeg@gmail.com
@@ -45,15 +46,15 @@ author:
 # keybase           : your_username
 
 
-### Posts ###
-permalink: /blog/:title
+# ### Posts ###
+# permalink: /blog/:title
 
 
 ### Collections ###
 collections:
   projects:
     output: true
-    permalink: /projects/:path
+    permalink: /projects/:name
   elements:                                             # For Documentation Only
     output: true                                        # For Documentation Only
 
