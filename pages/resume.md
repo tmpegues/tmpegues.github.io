@@ -1,12 +1,12 @@
 ---
-layout: default
-title: Resume
-permalink: /resume/
-weight: 4
+# layout: default
+# title: Resume
+# permalink: /resume/
+# weight: 4
 external_url: tmpegues.github.io/assets/PeguesResume.pdf
 ---
 
-<br>
+<!-- <br>
 <li class="inline-block">
   <a
     target="_blank"
@@ -16,4 +16,4 @@ external_url: tmpegues.github.io/assets/PeguesResume.pdf
   >
 </li>
 <br>
-<object data="{{ site.url }}{{ site.baseurl }}/assets/PeguesResume.pdf" width="1200" height="1200" type="application/pdf"></object>
+<object data="{{ site.url }}{{ site.baseurl }}/assets/PeguesResume.pdf" width="1200" height="1200" type="application/pdf"></object> -->
