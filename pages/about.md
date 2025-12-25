@@ -5,16 +5,10 @@ permalink: /about/
 weight: 3
 ---
 
-# **About Me**
+## Overview
+I graduated with a Bachelor's of Science in Mechanical Engineering from Caltech and am currently pursuing a Master's of Science in Robotics at Northwestern University. That undergraduate experience included projects designing and fabricating robotic arms and exoskeletons along with implementation of computer vision systems; I also has professional experience as a structures engineer for major appliances.  My main professional interests are assistive and medical devices for both rehabilitative and augmentative purposes.
 
-Hi I am **{{ site.author.name }}** :wave:,<br>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-<div class="row">
-{% include about/skills.html title="Programming Skills" source=site.data.programming-skills %}
-{% include about/skills.html title="Other Skills" source=site.data.other-skills %}
-</div>
-
-<div class="row">
-{% include about/timeline.html %}
-</div>
+### Research interests
+* Prosthetics and other assistive devices
+* Surgical robotics and medical applications
+* All manners of bio-inspired engineering
