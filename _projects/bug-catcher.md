@@ -1,8 +1,6 @@
 ---
-# layout: project
 name: Bug Catcher
-tools: [ROS 2, OpenCV, Onshape, MoveIt 2, Python]
-# date: December 2022
+tools: [MoveIt 2, Onshape, OpenCV, Python, ROS 2 ]
 image: https://tmpegues.github.io/assets/bug1.png
 description: Developed ROS 2 packages to use a FER arm to pick up and sort moving turtles
 ---

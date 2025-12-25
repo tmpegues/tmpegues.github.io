@@ -1,8 +1,8 @@
 ---
-layout: project
-title: Jenga Player
-date: January 2022
-image: /public/images/jenga1.png
+name: Jenga Player
+tools: [ OpenCV, Python, ROS 1, SolidWorks ]
+image: https://tmpegues.github.io/assets/jenga1.png
+description: Designed and built a robot arm to play Jenga
 ---
 
 ## Overview
