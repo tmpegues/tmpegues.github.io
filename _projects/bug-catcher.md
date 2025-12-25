@@ -2,7 +2,7 @@
 # layout: project
 Name: Bug Catcher
 date: December 2022
-image: /public/images/bug1.png
+image: https://tmpegues.github.io/assets/bug1.png
 ---
 
 ## Overview
