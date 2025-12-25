@@ -1,6 +1,6 @@
 ---
 # layout: default
-# title: Resume
+title: Resume
 # permalink: /resume/
 # weight: 4
 external_url: tmpegues.github.io/assets/PeguesResume.pdf
