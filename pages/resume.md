@@ -3,7 +3,7 @@
 title: Resume
 # permalink: /resume/
 # weight: 4
-external_url: https://tmpegues.github.io/assets/PeguesResume.pdf
+external_url: /assets/PeguesResume.pdf
 ---
 
 <!-- <br>
