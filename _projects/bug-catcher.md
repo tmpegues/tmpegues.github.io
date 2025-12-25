@@ -1,6 +1,6 @@
 ---
-layout: project
-title: Bug Catcher
+# layout: project
+Name: Bug Catcher
 date: December 2022
 image: /public/images/bug1.png
 ---
