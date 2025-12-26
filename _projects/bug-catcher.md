@@ -17,12 +17,9 @@ My team chose sorting HexBugs by color as the task for our Franka arm to perform
 ## Motion
 Because the HexBug turtles move with a bit of randomness, it wouldn't have been possible to use the provided MoveIt 2 actions to send a trajectory to the arm, as these are given fixed endpoints instead of a moving target. We could have either moved the arm at relatively high speeds and sent sequential trajectories every time the previous one finished or we could have cancelled the action and sent a new trajectory as we detected new HexBug positions. Instead, we used MoveIt for trajectory calculation and then sent the trajectory directly to the *joint_trajectory_controller*, which allowed us to constantly send new trajectories and have them update immediately.
 
-{% include video.html id="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" %}
+{% include elements/video.html id="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" %}
 
-<div class="video">
-  <iframe src="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" frameborder="0" allowfullscreen></iframe>
-</div>
-
+In the video above, the FER arm is tracking a turtle position simulated by the ROS 2 turtlesim.
 
 ### Link
 Please see the GitHub repo here for more detail: [Link to be updated when available]()
