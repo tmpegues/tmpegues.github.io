@@ -10,6 +10,8 @@ This robot was built for Caltech's [ME/EE/CS 134: Robotic Systems](https://www.c
 
 My team chose to design and build a robot capable of playing Jenga. We were provided with very ROS compatible motors, several example files (and experience from previous robotics courses), and set free to implement our idea. While we all contributed to all parts of the project, my primary focus was the vision system.
 
+{% include elements/video.html id="https://tmpegues.github.io/assets/jenga/jenga_video.mp4" %}
+
 ### Vision
 Our robot uses a 720p webcam and OpenCV to determine the location of the 54 blocks in the Jenga tower. Each block has a 4x4 ArUco marker laser eched and painted on its end face that's used to determine its 3D pose and orientation. Each block marker was about 10 mm. In addition to the markers on every block, the Jenga tower is built on a sheet of paper with three large markers that are used as coarse stationary references. The Jenga block on the bottom right of the tower is used as a finer reference point, under the assumption that the robot or human player will never remove that block from the tower. One advantage of this approach that I didn't anticipate is that the camera can be placed anywhere, as long as the markers can be seen with enough detail. The camera can even be moved while the robot is running and it will automatically adjust all of the 3D transforms.
 
