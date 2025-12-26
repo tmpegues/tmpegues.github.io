@@ -10,13 +10,18 @@ This project was completed for Northwestern's [MECH_ENG 450: Embedded Systems in
 
 My team chose sorting HexBugs by color as the task for our Franka arm to perform. This idea was split into 3 main sub-tasks: determining the location of our camera relative to the robot, determining the positions of the points of interest (HexBugs, locations to sort to) relative to the camera, then moving the robot based on that information. My primary focus was motion, but this was a collaborative effort and I made contributions to vision and designed a part to reliably locate our wooden arena around the base of the robot.
 
-{% include elements/figure.html image="https://tmpegues.github.io/assets/bug/bug1.png" caption="The FER arm picking up a turtle/HexBug" %}
+
+
+{% include elements/video.html image="https://tmpegues.github.io/assets/bug/bug1.png" caption="The FER arm picking up a turtle/HexBug" %}
 
 ## Motion
 Because the HexBug turtles move with a bit of randomness, it wouldn't have been possible to use the provided MoveIt 2 actions to send a trajectory to the arm, as these are given fixed endpoints instead of a moving target. We could have either moved the arm at relatively high speeds and sent sequential trajectories every time the previous one finished or we could have cancelled the action and sent a new trajectory as we detected new HexBug positions. Instead, we used MoveIt for trajectory calculation and then sent the trajectory directly to the *joint_trajectory_controller*, which allowed us to constantly send new trajectories and have them update immediately.
 
+<video width="960" height="640" controls="controls">
+  <source src="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" type="video/mp4">
+</video>
 
-{% include elements/figure.html video="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" caption="The FER arm tracking a HexBug being simulated with turtlesim" %}
+<!-- {% include elements/figure.html video="https://tmpegues.github.io/assets/bug/bug_tracking.mp4" caption="The FER arm tracking a HexBug being simulated with turtlesim" %} -->
 
 
 
