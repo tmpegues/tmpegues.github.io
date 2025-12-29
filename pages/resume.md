@@ -2,7 +2,7 @@
 # layout: default
 title: Resume
 # permalink: /resume/
-weight: 4
+weight: 2
 external_url: /assets/PeguesResume.pdf
 ---
 
