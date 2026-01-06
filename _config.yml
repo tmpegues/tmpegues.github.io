@@ -1,6 +1,6 @@
 ### Site Settings ###
-title               : Toussaint M. Pegues
-description         : "Toussaint M. Pegues's project portfolio"
+title               : T. Miguel Pegues
+description         : "T. Miguel Pegues's project portfolio"
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : tmpegues/tmpegues.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : tmpegues/theme
