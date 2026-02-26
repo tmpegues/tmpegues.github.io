@@ -6,7 +6,7 @@ description: Designed and built a robot arm to play Jenga
 ---
 
 ## Overview
-This robot was built in a team of four for Caltech's [ME/EE/CS 134: Robotic Systems](https://www.cms.caltech.edu/academics/courses/mecsee-134).
+This robot was built in a team of four for Caltech's {% include elements/ext_link.html link="https://www.cms.caltech.edu/academics/courses/mecsee-134" text="ME/EE/CS 134: Robotic Systems "%}.
 
 My team chose to design and build a robot capable of playing Jenga. We were provided with very ROS compatible motors, several example files (and experience from previous robotics courses), and set free to implement our idea. While we all contributed to all parts of the project, my primary focus was the vision system.
 
@@ -20,4 +20,4 @@ The primary purpose of the vision system is to deliver block coordinates to the 
 ### More Info
 My teammates for this project were Matthew Earney '24, Olivia Ernst '22, and Susu Le '22.
 
-Unfortunately, I don't have the full documentation for this project anymore, but I do have the vision code: [GitHub link](https://github.com/tmpegues/jenga_vision)
+Unfortunately, I don't have the full documentation for this project anymore, but I do have the vision code: {% include elements/button.html link="https://github.com/tmpegues/jenga_vision" text="GitHub" style="secondary" size="sm" %}

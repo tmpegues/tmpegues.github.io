@@ -4,9 +4,10 @@ tools: [MoveIt 2, Onshape, OpenCV, Python, ROS 2 ]
 image: https://tmpegues.github.io/assets/bug/bug1.png
 description: Developed ROS 2 packages to use a FER arm to pick up and sort moving turtles
 ---
-Please see the GitHub repo here for more detail: [Link](https://github.com/tmpegues/bug_catcher)
+Please see the GitHub repo here for more detail: {% include elements/button.html link="https://github.com/tmpegues/bug_catcher" text="GitHub" style="secondary" size="sm" %}
+
 ## Overview
-This project was completed in a team of four for Northwestern's [MECH_ENG 450: ](https://www.mccormick.northwestern.edu/mechanical/academics/courses/descriptions/450-embedded-systems-in-robotics.html) Embedded Systems in Robotics.
+This project was completed in a team of four for Northwestern's {% include elements/ext_link.html link="https://www.mccormick.northwestern.edu/mechanical/academics/courses/descriptions/450-embedded-systems-in-robotics.html" text="MECH_ENG 450: "%} Embedded Systems in Robotics.
 
 My team chose to catch and sort HexBugs by color as the task for our Franka arm to perform. This idea was split into 3 main sub-tasks: determining the location of our camera relative to the robot, determining the positions of the points of interest (HexBugs, locations to sort to) relative to the camera, then moving the robot based on that information. My primary focus was motion.
 

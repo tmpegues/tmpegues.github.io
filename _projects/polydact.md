@@ -4,6 +4,7 @@ tools: [Python, ROS 2, OnShape, Sewing]
 image: https://tmpegues.github.io/assets/polydact/poly_main.jpg
 description: Designed and built a wearable sensor-integrated glove and flexible supernumerary finger to expand the dexterity of a human hand.
 ---
+GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 
 ## Overview
 Over the Winter 2026 quarter, I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. This project is a work in progress. The description here is up to date as of 22 February 2026.
