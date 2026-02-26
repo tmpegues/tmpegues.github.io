@@ -3,7 +3,7 @@ title               : T. Miguel Pegues
 description         : "T. Miguel Pegues's project portfolio"
 baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : tmpegues/tmpegues.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        : tmpegues/theme
+remote_theme        :
 open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
 external_new_tab        : true
 
