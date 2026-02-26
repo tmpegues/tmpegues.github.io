@@ -1,6 +1,6 @@
 ---
 name: Polydact, A Flexible New Finger
-tools: [Python, ROS 2, OnShape, Sewing]
+tools: [OnShape, Python, ROS 2, Sewing]
 image: https://tmpegues.github.io/assets/polydact/poly_main.jpg
 style: border
 color: info
@@ -9,12 +9,12 @@ description: Designed and built a wearable sensor-integrated glove and flexible 
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 
 ## Overview
-Over the Winter 2026 quarter, I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. This project is a work in progress. The description here is up to date as of 22 February 2026.
+Over the Winter 2026 quarter, I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. This project is a work in progress. The description here is up to date as of 26 February 2026.
 
-{% include elements/figure.html image="https://tmpegues.github.io/assets/polydact/poly_main.jpg" caption="The first working Polydact draft." %}
+{% include elements/video.html id="https://tmpegues.github.io/assets/polydact/stir_1.mp4" %}
 
 ## Tentacle Design
-The design of the tentacle is based on a set of nested logarithmic spirals, as developed by Z. Wang (Reference 1). Polydact uses a 30 bone long tentacle, with the spiral discretized into 30 degree increments, which allows the tentacle to wrap 2.5 times around itself when fully curled. The black tentacle shown in images and videos was 3D printed in one piece on a PrusaXL with black PLA bones and a red central TPU spine. The spine width is 15% of the maximum width of each bone, tapering along the tentacles length.
+The design of the tentacle is based on a set of nested logarithmic spirals, as developed by Z. Wang (Reference 1). Polydact uses a 30 bone long tentacle, with the spiral discretized into 30 degree increments, which allows the tentacle to wrap 2.5 times around itself when fully curled. The black tentacle shown in images and videos was 3D printed in one piece on a PrusaXL with black PLA bones and a red central TPU spine. The spine width is 15% of the maximum width of each bone, tapering along the tentacle's length.
 
 ## Actuation
 The tentacle is actuated by three cables (30 lb fishing line) strung through itself and tied through a bead at the small end. The other end of the cables pass through the hand-bracket and travel through plastic tubing and end tied to spools mounted on three motor shafts. The motors used here are Dynamixel XW540-T140s, which are 185 g (~.4 lb each). Due to the combined weight of three motors, they are mounted on the user's shoulder. Each motor is held in a frame with a dovetail connector that slides into the shoulder strap.
