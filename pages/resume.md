@@ -3,7 +3,7 @@
 title: Resume
 # permalink: /resume/
 weight: 2
-external_url: /assets/PeguesResume260223.pdf
+external_url: /assets/PeguesResume.pdf
 ---
 
 <!-- <br>
