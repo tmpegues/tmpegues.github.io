@@ -12,7 +12,7 @@
       {%- assign html_pages = site.html_pages | sort: 'weight' -%}
       {%- assign filtered_pages = "" | split: "" -%}
 
-      {%- for html_page in html_pages -%} 
+      {%- for html_page in html_pages -%}
 
         {%- assign exclude = false -%}
 
@@ -37,7 +37,7 @@
 
       {%- endfor -%}
 
-      {% for html_page in filtered_pages %}  
+      {% for html_page in filtered_pages %}
 
         {%- if page.url contains html_page.url -%}
           {%- assign active_status = "active" -%}
@@ -54,6 +54,8 @@
         <a class="nav-item nav-link {{ active_status }}" href="{{ url }}" {%- if html_page.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>{{ html_page.title }}</a>
 
       {% endfor %}
+
+      <a class="nav-item nav-link " href="https://github.com/tmpegues/tmpegues.github.io"><i class="fab fa-1x fa-github"></i></a>
 
       <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
     </div>
