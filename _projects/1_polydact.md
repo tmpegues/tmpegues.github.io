@@ -4,6 +4,7 @@ tools: [OnShape, Python, ROS 2, Sewing]
 image: https://tmpegues.github.io/assets/polydact/poly_main.jpg
 style: border
 color: info
+permalink: /projects/polydact
 description: Designed and built a wearable sensor-integrated glove and flexible supernumerary finger to expand the dexterity of a human hand.
 ---
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
