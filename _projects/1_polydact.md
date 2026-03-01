@@ -1,7 +1,7 @@
 ---
 name: Polydact, A Flexible New Finger
 tools: [OnShape, Python, ROS 2, Sewing]
-image: https://tmpegues.github.io/assets/polydact/poly_main.jpg
+image: assets/polydact/poly_main.jpg
 style: border
 color: info
 permalink: /projects/polydact

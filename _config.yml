@@ -1,12 +1,12 @@
-### Site Settings ###
-title               : T. Miguel Pegues
-description         : "T. Miguel Pegues's project portfolio"
-baseurl             : ""            # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
-repository          : tmpegues/tmpegues.github.io      # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
-remote_theme        :
-open_new_tab        : true                    # Opens external URLs in new tab (works for posts, projects and navbar only)
-external_new_tab        : true
-
+# Site settings
+title: Robert Zhu
+email: robertzhu778@gmail.com
+url: "https://zhul49.github.io"
+description: "Robotics + software engineer focused on perception and motion planning. I build end-to-end robot manipulation systems with ROS 2, MoveIt 2, and computer vision."
+keywords: "Robotics, ROS2, MoveIt2, Computer Vision, Machine Learning, Embedded, C++, Python, Perception, Manipulation"
+skills: "Robotics - Perception - Motion Planning - Embedded Systems"
+meta_author: Zhu Robert
+remote_theme: tmpegues/tmpegues.github.io
 ### Plugins ###
 plugins:
   - jemoji
@@ -23,17 +23,17 @@ nav_exclude:                                            # The following paths ar
 
 ### Author Info ###
 author:
-  name              : T. Miguel Pegues
+  name              : Robert Zhu
   # image             : https://i.imgur.com/uyDNQnn.jpg
   # behance           : your_username
 # dribbble          : your_username
-  email             : toumigpeg@gmail.com
+  email             :  mailto:robertzhu778@gmail.com
   # facebook          : your_username
-  github            : tmpegues
+  github            : zhul49
 # gitlab            : your_username
 # instagram         : your_username
 # kaggle            : your_username
-  linkedin          : tmpegues
+  linkedin          : robert-zhu1
   # medium            : your_username
 # soundcloud        : your_username
 # spotify           : your_username
@@ -106,3 +106,4 @@ exclude:
   - CONTRIBUTING.md
   - LICENSE
   - "*.log"
+
