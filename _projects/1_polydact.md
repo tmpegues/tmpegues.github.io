@@ -10,7 +10,7 @@ description: Designed and built a wearable sensor-integrated glove and flexible 
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 
 ## Overview
-Over the Winter 2026 quarter, I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. This project is a work in progress. The description here is up to date as of 26 February 2026.
+Over the Winter 2026 quarter, I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. This project is a work in progress. The description here is up to date as of 12 March 2026.
 
 {% include elements/video.html id="https://tmpegues.github.io/assets/polydact/stir_1.mp4" %}
 
