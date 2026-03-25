@@ -7,10 +7,18 @@ description: Designed and built a wearable sensor-integrated glove and flexible 
 ---
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 
+
 ## Overview
 I have been developing a wearable robotic sixth finger that will give the user greater dexterity than they have with their natural hand. The Polydact device is is controlled by a hand made glove with embedded flex sensors.
 
 {% include elements/video.html id="https://tmpegues.github.io/assets/polydact/sprite.mp4" %}
+
+{% include elements/figure.html image="assets/polydact/blocks_simple.svg" caption="Basic Diagram" %}
+
+<details>
+    <summary class="text-monospace">Detailed diagram...</summary>
+    {% include elements/figure.html image="assets/polydact/blocks_detail.svg" caption="Detailed Diagram" %}
+</details>
 
 ## Tentacle Design
 The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA (orange) and a TPU spine (black, not visible in video). 3M GM640 gripping tape is added to the inner surface both for the added grip, but also to indicate the main flexing direction.
