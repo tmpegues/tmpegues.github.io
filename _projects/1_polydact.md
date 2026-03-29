@@ -12,7 +12,7 @@ GitHub repo here: {% include elements/button.html link="https://github.com/tmpeg
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
 
-{% include elements/figure.html image="assets/polydact/blocks_simple.svg"%}
+{% include elements/figure.html image="assets/polydact/blocks_simple.png"%}
 
 ## Tentacle Design
 The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA (orange) and a TPU spine (black, not visible in video or image). 3M GM640 gripping tape (black) is added to the main inner surface both for the added grip, and also to indicate the main flexing direction.
@@ -30,8 +30,8 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
 Polydact's main control device is a glove with integrated flex sensors. The flex reading is mapped to motor velocity, which spool or unspool the three cables that travel the entire length of the tentacle and terminate in a knot at its free end. Several parts on the entire Polydact device are color coded red, green, and blue. This makes it easier for the user to know which finger controls which direction of tentacle bend.
 
 
-{% include elements/figure.html image="assets/polydact/blocks_detail.svg" %}
-{% include elements/figure.html image="assets/polydact/glove_circuit2.svg" caption="Glove and circuit diagram" %}
+{% include elements/figure.html image="assets/polydact/blocks_detail.png" %}
+{% include elements/figure.html image="assets/polydact/glove_circuit2.png" caption="Glove and circuit diagram" %}
 
 ## Part Mounting
 The tentacle itself is seated in a hexagonal socket (purple) and held in place with two screws. The socket has receptacles on the back to hold the tendon guide tubes in place and holes in the center of each face. These holes, in conjunction with a nut on the interior of the socket, hold the tentacle in the socket and also attach the socket to the wrist mount (pink). The angle of the socket in the plane of the hand is easily adjusted by tilting the socket before tighening the nuts on the outside of the wrist mount.
@@ -42,7 +42,7 @@ I sewed the control glove using the same spandex as the wrist and chest bands. F
 
 The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor slots were 3D printed. The Raspberry Pi case and U2D2 mount are made of a combination of 3D printed and laser cut parts, although they were designed to all be easily laser cut.  The switch box is intentionally a combination of 3D printed and laser cut parts. I designed all 3D printed and laser cut parts.
 
-{% include elements/figure.html image="assets/polydact/labeled_parts.svg"%}
+{% include elements/figure.html image="assets/polydact/labeled_parts.png"%}
 
 
 
