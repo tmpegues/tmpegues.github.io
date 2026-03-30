@@ -18,20 +18,16 @@ I have developed a wearable robotic sixth finger that gives its user greater dex
 The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA (orange) and a TPU spine (black, only visible in section image). The barbs along the spine are added to guarantee that the bones cannnot slide off of the spine even if the TPU and PLA lose adhesion. 3M GM640 gripping tape (black) is added to the main inner surface both for the added grip, and also to indicate the main flexing direction.
 
 <details>
-    <summary class="text-monospace">Further design detail...</summary>
+    <summary class="text-monospace">Click here for further design detail...</summary>
     Scaling factors a and b were set as 1.0 and 0.1 respectively, with a split angle of 30°. I wanted the tentacle to be able to coil around itself twice when fully tightened in one direction, so I required at least 24 bones and used 30. With a = 1.0 and b = 0.1, the tightest coil possible is ~2.3 cm. 2.3 cm, just over an inch, is the smallest diameter object I can pick up. I did not have a specific target for largest diameter.
     <br><br>
     See Reference 1 for spiral math derivations.
 </details>
 
-{% capture carousel_images %}
+{% include elements/figure.html image="/assets/polydact/tent2.jpg" caption="Tentacle and wrist mounting parts" %}
+{% include elements/figure.html image="/assets/polydact/tentacle_cad.png" caption="Tentacle model showing tendon holes" %}
+{% include elements/figure.html image="/assets/polydact/tentacle_section.png" caption="Tentacle cross section" %}
 
-/assets/polydact/tent2.jpg
-/assets/polydact/tentacle_cad.png
-/assets/polydact/tentacle_section.png
-
-{% endcapture %}
-{% include elements/carousel.html %}
 
 
 ## Control
@@ -56,7 +52,7 @@ The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor
 
 
 <details>
-    <summary class="text-monospace">A few CAD models...</summary>
+    <summary class="text-monospace">Click here to see a few CAD models...</summary>
 
 {% capture carousel_images %}
 /assets/polydact/orbits/tentacle.gif
