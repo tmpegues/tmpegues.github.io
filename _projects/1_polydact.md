@@ -38,13 +38,11 @@ By default, ring finger flexion causes the tentacle to coil towards the wrist on
 
 {% include elements/figure.html image="assets/polydact/blocks/blocks_detail.png" %}
 {% include elements/figure.html image="assets/polydact/control/glove_circuit2.png" caption="Glove and circuit diagram" %}
-{% include elements/figure.html image="assets/polydact/control/control_directions.png" %}
 
 {% capture carousel_images %}
-/assets/polydact/control/ring_finger.png
-/assets/polydact/control/middle_finger.png
-/assets/polydact/control/index_finger.png
-
+    /assets/polydact/control/ring_finger.png
+    /assets/polydact/control/middle_finger.png
+    /assets/polydact/control/index_finger.png
 {% endcapture %}
 {% include elements/carousel.html name="control_directions"%}
 
@@ -65,12 +63,11 @@ The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor
     <summary class="text-monospace">Click here to see a few CAD models...</summary>
 
 {% capture carousel_images %}
-/assets/polydact/orbits/tentacle.gif
-/assets/polydact/orbits/pi_case.gif
-/assets/polydact/orbits/motor_frame.gif
-/assets/polydact/orbits/motor_strap.gif
-/assets/polydact/orbits/switch_box.gif
-
+    /assets/polydact/orbits/tentacle.gif
+    /assets/polydact/orbits/pi_case.gif
+    /assets/polydact/orbits/motor_frame.gif
+    /assets/polydact/orbits/motor_strap.gif
+    /assets/polydact/orbits/switch_box.gif
 {% endcapture %}
 {% include elements/carousel.html name="orbits"%}
 
