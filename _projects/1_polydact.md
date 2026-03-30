@@ -1,7 +1,7 @@
 ---
 name: Polydact, A Flexible New Finger
 tools: [Mechatronics, OnShape, Python, Rapid Prototyping, ROS 2, Sewing]
-image: /assets/polydact/sprite.gif
+image: /assets/polydact/preview.gif
 permalink: /projects/polydact
 description: Designed and built a flexible supernumerary finger and sensor glove to expand the dexterity of a human hand.
 ---
@@ -13,7 +13,7 @@ GitHub repo here: {% include elements/button.html link="https://github.com/tmpeg
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
 
-{% include elements/figure.html image="assets/polydact/blocks_simple.png"%}
+{% include elements/figure.html image="assets/polydact/blocks/blocks_simple.png"%}
 
 
 ## Tentacle Design
@@ -26,18 +26,48 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
     See Reference 1 for spiral math derivations.
 </details>
 
-{% include elements/figure.html image="/assets/polydact/tent2.jpg" caption="Tentacle and wrist mounting parts" %}
-{% include elements/figure.html image="/assets/polydact/tentacle_cad.png" caption="Tentacle model showing tendon holes" %}
-{% include elements/figure.html image="/assets/polydact/tentacle_section.png" caption="Tentacle cross section" %}
+{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_photo.jpg" caption="Tentacle and wrist mounting parts" %}
+{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes" %}
+{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_section.png" caption="Tentacle cross section" %}
 
 
 ## Control
 Polydact's main control device is a glove with integrated flex sensors. The flex reading is mapped to motor velocity, which spool or unspool the three cables that travel the entire length of the tentacle and terminate in a knot at its free end. Several parts on the entire Polydact device are color coded red, green, and blue. This makes it easier for the user to know which finger controls which direction of tentacle coiling.
 
-By default, ring finger flexion causes the tentacle to coil towards the wrist on the back of the hand (color coded red), middle finger flexion causes the tentacle to coil towards the elbow in the plane of the hand (color coded green), and index finger flexion causes the tentacle to coil towards the wrist on the front of the hand (color coded blue). The index finger coil direction is the easiest to use for grasping objects.
+By default, ring finger flexion causes the tentacle to coil towards the wrist on the back of the hand (color coded red), middle finger flexion causes the tentacle to coil towards the elbow in the plane of the palm (color coded green), and index finger flexion causes the tentacle to coil towards the wrist on the front of the hand (color coded blue). The index finger coil direction is the easiest to use for grasping objects.
 
-{% include elements/figure.html image="assets/polydact/blocks_detail.png" %}
-{% include elements/figure.html image="assets/polydact/glove_circuit2.png" caption="Glove and circuit diagram" %}
+{% include elements/figure.html image="assets/polydact/blocks/blocks_detail.png" %}
+{% include elements/figure.html image="assets/polydact/control/glove_circuit2.png" caption="Glove and circuit diagram" %}
+{% include elements/figure.html image="assets/polydact/control/control_directions.png" %}
+
+<!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="false">
+
+  <ol class="carousel-indicators">
+    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
+    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
+    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
+  </ol>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+          <img src="/assets/polydact/control/ring_finger.png" class="d-block w-100" />
+    </div>
+    <div class="carousel-item">
+          <img src="/assets/polydact/control/middle_finger.png" class="d-block w-100" />
+    </div>
+    <div class="carousel-item">
+          <img src="/assets/polydact/control/index_finger.png" class="d-block w-100" />
+    </div>
+
+  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div> -->
 
 
 ## Part Mounting
