@@ -7,11 +7,19 @@ description: Designed and built a flexible supernumerary finger and sensor glove
 ---
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 
-{% include elements/youtube.html id="WlC2JOe-_yc" %}
+
 
 
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
+
+{% include elements/youtube.html id="WlC2JOe-_yc" %}
+
+<details>
+    <summary class="text-monospace">Click here for more detailed videos...</summary>
+    {% include elements/youtube.html id="3kpcq-mpGlg" %}
+
+</details>
 
 {% include elements/figure.html image="assets/polydact/blocks/blocks_simple.png"%}
 
