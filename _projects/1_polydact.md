@@ -9,10 +9,12 @@ GitHub repo here: {% include elements/button.html link="https://github.com/tmpeg
 
 {% include elements/youtube.html id="WlC2JOe-_yc" %}
 
+
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
 
 {% include elements/figure.html image="assets/polydact/blocks_simple.png"%}
+
 
 ## Tentacle Design
 The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA (orange) and a TPU spine (black, only visible in section image). The barbs along the spine are added to guarantee that the bones cannnot slide off of the spine even if the TPU and PLA lose adhesion. 3M GM640 gripping tape (black) is added to the main inner surface both for the added grip, and also to indicate the main flexing direction.
@@ -29,27 +31,25 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
 {% include elements/figure.html image="/assets/polydact/tentacle_section.png" caption="Tentacle cross section" %}
 
 
-
 ## Control
 Polydact's main control device is a glove with integrated flex sensors. The flex reading is mapped to motor velocity, which spool or unspool the three cables that travel the entire length of the tentacle and terminate in a knot at its free end. Several parts on the entire Polydact device are color coded red, green, and blue. This makes it easier for the user to know which finger controls which direction of tentacle bend.
 
 By default, index finger flexion causes the tentacle to coil towards the wrist on the front of the hand, middle finger flexion causes the tentacle to coil towards the wrist on the back of the hand, and ring finger flexion causes the tentacle to coil away from the hand.
 
-
 {% include elements/figure.html image="assets/polydact/blocks_detail.png" %}
 {% include elements/figure.html image="assets/polydact/glove_circuit2.png" caption="Glove and circuit diagram" %}
 
-## Part Mounting
-The tentacle itself is seated in a hexagonal socket (purple) that has receptacles on the back to hold the tendon guide tubes in place and holes in the center of each face. These holes, in conjunction with a nut on the interior of the socket, hold the tentacle in place and also attach the socket to the wrist mount (pink). The angle of the socket in the plane of the hand is easily adjusted by tilting it in the wrist mount before tighening the nuts on the outside of the wrist mount.
 
-The wrist mount has slots for a strap; it is tied to the user with a band of spandex. Most other parts are also attached to the user with a band of spandex. The switch box, Raspberry Pi, Robotis U2D2, and motor strap also all have slots for straps and attach to a band tied around the user's chest. The motors are held in frames with dovetail connectors that slide into the motor strap. The battery is placed in the user's pocket.
+## Part Mounting
+The tentacle itself is seated in a hexagonal socket (purple) that has receptacles on the back to hold the tendon guide tubes in place and holes in the center of each face. Screws in these holes hold the tentacle in place and also attach the socket to the wrist mount (pink). The angle of the socket in the plane of the hand is easily adjusted by tilting it in the wrist mount before tighening the nuts on the outside of the wrist mount.
+
+The wrist mount has slots for a strap; it is tied to the user with a band of spandex. Most other parts (the switch box, Raspberry Pi, Robotis U2D2, and motor strap) are also attached to the user with a larger band across the chest. The motors are held in frames with dovetail connectors that slide into the motor strap. The battery is placed in the user's pocket.
 
 I sewed the control glove using the same spandex as the wrist and chest bands. Flex sensors are held in 3D printed slots sewn into the back of the middle three fingers. Sensor wiring is also sewn onto the back of the glove.
 
 The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor slots were 3D printed. The Raspberry Pi case and U2D2 mount are made of a combination of 3D printed and laser cut parts, although they were designed to all be easily laser cut.  The switch box is intentionally a combination of 3D printed and laser cut parts. I designed all 3D printed and laser cut parts.
 
 {% include elements/figure.html image="assets/polydact/labeled_parts.png"%}
-
 
 <details>
     <summary class="text-monospace">Click here to see a few CAD models...</summary>
@@ -70,7 +70,7 @@ The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor
 ## ROS Nodes
 Two nodes must be run to control the device: a sensor node (serial or Pi/ADC) and a motor coordinator node. The sensor node reads flex values and publishes MotorGoal messages to command motor velocity. The motor coordinator node subscribes to the MotorGoal messages and uses the DynamixelSDK to write commands to the motors.
 
-During early development, flex values were read using a Raspberry Pi Pico 2's ADC pins and sent values over USB serial to my laptop, running both the serial sensor and motor coordinator nodes. Flex values are currently read using a MCP3008 ADC connected to a Raspberry Pi running its own sensor node. The motor coordinator can run on either the Raspberry Pi or a laptop connected to the same network.
+During early development, flex values were read using a Raspberry Pi Pico 2's ADC pins and sent over USB serial to my laptop, which was running both the serial sensor and motor coordinator nodes. Flex values are currently read using a MCP3008 ADC connected to a Raspberry Pi running its own sensor node. The motor coordinator can run on either the Raspberry Pi or a laptop connected to the same network.
 
 ## References
-[1] Z. Wang, "SpiRobs: Logarithmic spiral-shaped robots for versatile grasping across scales," *Device*, vol. 3, April 2024, [doi:10.1016/j.device.2024.100646](https://www.cell.com/device/fulltext/S2666-9986(24)00603-3)
+[1] Z. Wang, "SpiRobs: Logarithmic spiral-shaped robots for versatile grasping across scales," *Device*, vol. 3, April 2024, <a href="https://www.cell.com/device/fulltext/S2666-9986(24)00603-3" target="_blank">doi:10.1016/j.device.2024.100646</a>
