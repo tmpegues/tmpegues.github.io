@@ -34,24 +34,34 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
     See Reference 1 for spiral math derivations.
 </details>
 
+<div class="row">
+    <div class="two_column">
 {% include elements/figure.html image="/assets/polydact/tentacle/tentacle_photo.jpg" caption="Tentacle and wrist mounting parts" %}
+    </div>
+    <div class="two_column">
 {% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes and cross section" %}
-
+    </div>
+</div>
 
 ## Control
 Polydact's main control device is a glove with integrated flex sensors. The flex reading is mapped to motor velocity, which spool or unspool the three cables that travel the entire length of the tentacle and terminate in a knot at its free end. Several parts on the entire Polydact device are color coded red, green, and blue. This makes it easier for the user to know which finger controls which direction of tentacle coiling.
 
 By default, ring finger flexion causes the tentacle to coil towards the wrist on the back of the hand (color coded red), middle finger flexion causes the tentacle to coil towards the elbow in the plane of the palm (color coded green), and index finger flexion causes the tentacle to coil towards the wrist on the front of the hand (color coded blue). The index finger coil direction is the easiest to use for grasping objects.
 
-{% include elements/figure.html image="assets/polydact/blocks/blocks_detail.png" %}
-{% include elements/figure.html image="assets/polydact/control/glove_circuit2.png" caption="Glove and circuit diagram" %}
+{% include elements/figure.html image="assets/polydact/blocks/blocks_detail.png" caption="Block diagram"%}
+{% include elements/figure.html image="assets/polydact/control/glove_circuit2.png" caption="Glove image and circuit diagram" %}
 
-{% capture carousel_images %}
-    /assets/polydact/control/ring_finger.png
-    /assets/polydact/control/middle_finger.png
-    /assets/polydact/control/index_finger.png
-{% endcapture %}
-{% include elements/carousel.html name="control_directions"%}
+ <div class="row">
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/control/ring_finger.gif" caption="(1) Ring finger control" %}
+  </div>
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/control/middle_finger.gif" caption="(2) Middle finger control" %}
+  </div>
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/control/index_finger.gif" caption="(3) Index finger control" %}
+  </div>
+</div>
 
 
 
@@ -69,15 +79,26 @@ The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor
 <details>
     <summary class="text-monospace">Click here to see a few CAD models...</summary>
 
-{% capture carousel_images %}
-    /assets/polydact/orbits/tentacle.gif
-    /assets/polydact/orbits/pi_case.gif
-    /assets/polydact/orbits/motor_frame.gif
-    /assets/polydact/orbits/motor_strap.gif
-    /assets/polydact/orbits/switch_box.gif
-{% endcapture %}
-{% include elements/carousel.html name="orbits"%}
+<div class="row">
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/orbits/tentacle.gif" %}
+  </div>
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/orbits/pi_case.gif" %}
+  </div>
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/orbits/switch_box.gif" %}
+  </div>
+</div>
 
+<div class="row">
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/orbits/motor_frame.gif" %}
+  </div>
+  <div class="three_column">
+    {% include elements/figure.html image="/assets/polydact/orbits/motor_strap.gif" %}
+  </div>
+</div>
 </details>
 
 
