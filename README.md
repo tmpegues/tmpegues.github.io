@@ -9,3 +9,4 @@ I have made a few modifications to the theme:
 4. Project cards (shown on project index page) match blog post card style to enable different fill and border colors ([./_includes/projects/project-card.html](./_includes/projects/project-card.html))
 5. Removed footer theme link. It's easily found without the link on every page. ([./_includes/footer.html](./_includes/footer.html))
 6. Added navbar link to this repo.([./_includes/navbar.html](./_includes/navbar.html), line 58)
+7. Modified carousel element. In default theme, it looks like you can only have one image carousel per page. If you do more than one, the buttons on all of them only shift the image on the first one. By providing a name, you can have multiple image carousels on one page. ([./_includes/carousel.html](./_includes/elements/carousel.html))
