@@ -27,8 +27,7 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
 </details>
 
 {% include elements/figure.html image="/assets/polydact/tentacle/tentacle_photo.jpg" caption="Tentacle and wrist mounting parts" %}
-{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes" %}
-{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_section.png" caption="Tentacle cross section" %}
+{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes and cross section" %}
 
 
 ## Control
