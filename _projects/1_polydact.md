@@ -40,34 +40,14 @@ By default, ring finger flexion causes the tentacle to coil towards the wrist on
 {% include elements/figure.html image="assets/polydact/control/glove_circuit2.png" caption="Glove and circuit diagram" %}
 {% include elements/figure.html image="assets/polydact/control/control_directions.png" %}
 
-<!-- <div id="carouselExampleIndicators2" class="carousel slide" data-ride="false">
+{% capture carousel_images %}
+/assets/polydact/control/ring_finger.png
+/assets/polydact/control/middle_finger.png
+/assets/polydact/control/index_finger.png
 
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="1"></li>
-    <li data-target="#carouselExampleIndicators2" data-slide-to="2"></li>
-  </ol>
+{% endcapture %}
+{% include elements/carousel.html name="control_directions"%}
 
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-          <img src="/assets/polydact/control/ring_finger.png" class="d-block w-100" />
-    </div>
-    <div class="carousel-item">
-          <img src="/assets/polydact/control/middle_finger.png" class="d-block w-100" />
-    </div>
-    <div class="carousel-item">
-          <img src="/assets/polydact/control/index_finger.png" class="d-block w-100" />
-    </div>
-
-  <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div> -->
 
 
 ## Part Mounting
@@ -92,7 +72,7 @@ The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor
 /assets/polydact/orbits/switch_box.gif
 
 {% endcapture %}
-{% include elements/carousel.html %}
+{% include elements/carousel.html name="orbits"%}
 
 </details>
 
