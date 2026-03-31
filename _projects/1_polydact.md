@@ -13,12 +13,21 @@ GitHub repo here: {% include elements/button.html link="https://github.com/tmpeg
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
 
-{% include elements/youtube.html id="WlC2JOe-_yc" %}
-
+{% include elements/youtube.html id="uZgrAJIWvzo" %}
 <details>
     <summary class="text-monospace">Click here for more detailed videos...</summary>
-    {% include elements/youtube.html id="3kpcq-mpGlg" %}
-
+    <details>
+      <summary class="text-monospace">Initialization and calibration...</summary>
+      {% include elements/youtube.html id="3kpcq-mpGlg" %}
+    </details>
+    <details>
+      <summary class="text-monospace">Full recording (9:42) with annotations...</summary>
+      {% include elements/youtube.html id="He0HnvVfI5s" %}
+    </details>
+    <details>
+      <summary class="text-monospace">Full recording without annotations...</summary>
+      {% include elements/youtube.html id="LRtahk_bjf0" %}
+    </details>
 </details>
 
 {% include elements/figure.html image="assets/polydact/blocks/blocks_simple.png"%}
@@ -36,10 +45,10 @@ The design of the tentacle is based on logarithmic spirals, as developed by Z. W
 
 <div class="row">
     <div class="two_column">
-{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_photo.jpg" caption="Tentacle and wrist mounting parts" %}
+        {% include elements/figure.html image="/assets/polydact/tentacle/tentacle_photo.jpg" caption="Tentacle and wrist mounting parts" %}
     </div>
     <div class="two_column">
-{% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes and cross section" %}
+        {% include elements/figure.html image="/assets/polydact/tentacle/tentacle_cad.png" caption="Tentacle model showing tendon holes and cross section" %}
     </div>
 </div>
 
