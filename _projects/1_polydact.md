@@ -13,7 +13,7 @@ GitHub repo here: {% include elements/button.html link="https://github.com/tmpeg
 ## Overview
 I have developed a wearable robotic sixth finger that gives its user greater dexterity than they have with their natural hand. The Polydact device is controlled by a hand made glove with embedded flex sensors.
 
-{% include elements/youtube.html id="uZgrAJIWvzo" %}
+{% include elements/youtube.html id="Mq05AG6Wxf4" %}
 <details>
     <summary class="text-monospace">Click here for more detailed videos...</summary>
     <details>
