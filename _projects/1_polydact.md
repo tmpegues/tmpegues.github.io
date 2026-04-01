@@ -86,14 +86,18 @@ By default, ring finger flexion causes the tentacle to coil towards the wrist on
 
 <details>
   <summary class="text-monospace"><b>Further detail...</b></summary>
-
+<p>
 The tentacle itself is seated in a hexagonal socket (purple) that has receptacles on the back to hold the tendon guide tubes in place and holes in the center of each face. Screws in these holes hold the tentacle in place and also attach the socket to the wrist mount (pink). The angle of the socket in the plane of the hand is easily adjusted by tilting it in the wrist mount before tighening the nuts on the outside of the wrist mount.
-
+</p>
+<p>
 The wrist mount has slots for a strap; it is tied to the user with a band of spandex. Most other parts (the switch box, Raspberry Pi, Robotis U2D2, and motor strap) are also attached to the user with a larger band across the chest. The motors are held in frames with dovetail connectors that slide into the motor strap. The battery is placed in the user's pocket.
-
+</p>
+<p>
 I sewed the control glove using the same spandex as the wrist and chest bands. Flex sensors are held in 3D printed slots sewn into the back of the middle three fingers. Sensor wiring is also sewn onto the back of the glove.
-
+</p>
+<p>
 The tentacle, socket, wrist mount, motor strap, motor frames, spools, and sensor slots were 3D printed. The Raspberry Pi case and U2D2 mount are made of a combination of 3D printed and laser cut parts, although they were designed to all be easily laser cut.  The switch box is intentionally a combination of 3D printed and laser cut parts. I designed all 3D printed and laser cut parts.
+</p>
 </details>
 
 
