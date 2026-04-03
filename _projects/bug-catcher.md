@@ -4,7 +4,8 @@ tools: [MoveIt 2, Onshape, OpenCV, Python, ROS 2 ]
 image: /assets/bug/bug.gif
 description: Developed ROS 2 packages to use a FER arm to pick up and sort moving turtles
 ---
-Please see the GitHub repo here for more detail: {% include elements/button.html link="https://github.com/tmpegues/bug_catcher" text="GitHub" style="secondary" size="sm" %}
+Please see the GitHub repo here for more detail: {% include elements/button.html link="https://github.com/tmpegues/bug-catcher" text="GitHub" style="secondary" size="sm" %}
+
 
 ## Overview
 This project was completed in a team of four for Northwestern's {% include elements/ext_link.html link="https://www.mccormick.northwestern.edu/mechanical/academics/courses/descriptions/450-embedded-systems-in-robotics.html" text="MECH_ENG 450: "%} Embedded Systems in Robotics.
