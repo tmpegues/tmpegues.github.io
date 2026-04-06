@@ -15,6 +15,10 @@ Polydact a wearable robotic sixth finger that gives its user greater dexterity t
 <details>
     <summary class="text-monospace"><b>Click here for more detailed videos...</b></summary>
     <details>
+      <summary class="text-monospace"><b>Part/person assembly...</b></summary>
+      {% include elements/youtube.html id="t_MUiiybB-A" %}
+    </details>
+    <details>
       <summary class="text-monospace"><b>Initialization and calibration...</b></summary>
       {% include elements/youtube.html id="3kpcq-mpGlg" %}
     </details>
