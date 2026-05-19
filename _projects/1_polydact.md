@@ -38,7 +38,7 @@ Polydact is a wearable robotic sixth finger that gives its user greater dexterit
 
 
 ## Tentacle Design
-The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA bones (orange) on a TPU spine (black, only visible in section image). The interior barbs along the spine are added to guarantee that the bones cannnot slide off of the spine even if the TPU and PLA lose adhesion. 3M GM640 gripping tape (black) is added to the main inner surface both for the added grip and also to indicate the main coiling direction.
+The design of the tentacle is based on logarithmic spirals, as developed by Z. Wang (Reference 1). It was 3D printed in one piece with PLA bones (orange) on a TPU spine (black, only visible in section image). The interior barbs along the spine are added to guarantee that the bones cannot slide off of the spine even if the TPU and PLA lose adhesion. 3M GM640 gripping tape (black) is added to the main inner surface both for the added grip and also to indicate the main coiling direction.
 
 <details>
     <summary class="text-monospace"><b>Click here for further design detail...</b></summary>
