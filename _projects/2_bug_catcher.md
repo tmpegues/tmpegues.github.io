@@ -1,6 +1,7 @@
 ---
 name: Bug Catcher
 tools: [MoveIt 2, Onshape, OpenCV, Python, ROS 2 ]
+permalink: /projects/bug_catcher
 image: /assets/bug/bug.gif
 description: Developed ROS 2 packages to use a FER arm to pick up and sort moving turtles
 ---
