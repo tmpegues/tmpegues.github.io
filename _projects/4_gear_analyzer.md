@@ -7,7 +7,7 @@ description: Automated gear analysis fixture for production quality checking
 ---
 
 ## Overview
-{% include elements/ext_link.html link="https://www.productiverobotics.com/" text="Productive Robotics "%} designs and fabricates many of parts and assemblies in house for their robots; these parts require quality and feature analysis before being deemed production ready. Gear analysis was a manual process; the most skilled employee analyzed a gear in two minutes, but even that employee occasionally made mistakes, especially when switching from one gear type to another. This machine was created to automate the gear analysis process.
+{% include elements/ext_link.html link="https://www.productiverobotics.com/" text="Productive Robotics "%} designs and fabricates many of parts and assemblies in house for their robots; these parts require quality and feature analysis before being deemed production ready. Gear analysis used to be a manual process; the most skilled employee analyzed a gear in two minutes, but even that employee occasionally made mistakes, especially when switching from one gear type to another. This machine was created to automate the gear analysis process.
 
 Note that some parts of this machine and its purpose are proprietary and confidential. The descriptions will seem incomplete due to this.
 
@@ -25,7 +25,7 @@ Note that some parts of this machine and its purpose are proprietary and confide
 The gear analyzer is composed of two main sub-systems: the clamp-rotor and the imaging system. The parts that move up and down the column share a common elevator design.
 
 ### Elevator
-A gear rack (1 module) and linear rail (HGH20) are attached to a 80/20 (36" 2040-S)column to allow the elevators to travel smoothly up and down. The commonized elevator is composed of an aluminum L-bracket and 3D printed platform. A motor (NEMA 17 with CAN control board) with a 16T gear is screwed directly to the L-bracket; the platform and L-bracket are screwed to a linear guide block (HGH20CA). The platform is modified for each specific use: a large hole with embedded magnets for holding the red LED disk, a hole and gear shroud for the upper clamp-rotor, and smaller holes for the camera and lens.
+A gear rack (1 module) and linear rail (HGH20) are attached to a 80/20 (36" 2040-S) column to allow the elevators to travel smoothly up and down. The commonized elevator is composed of an aluminum L-bracket and 3D printed platform. A motor (NEMA 17 with CAN control board) with a 16T gear is screwed directly to the L-bracket; the platform and L-bracket are screwed to a linear guide block (HGH20CA). The platform is modified for each specific use: a large hole with embedded magnets for holding the red LED disk, a hole and gear shroud for the upper clamp-rotor, and smaller holes for the camera and lens.
 
 <div class="row">
     <div class="two_column">
@@ -72,7 +72,7 @@ The camera (Arducam B0498) and lens (50 mm) are mounted to two separate elevator
     </div>
 </div>
 
-The feed from the USB camera is analyzed using OpenCV. The gears analzed with this machine are all machined from single pieces of steel. This lack of color contrast makes feature detection somewhat difficult. Two LED disks, a blue one mounted to the lower clamp rotor and a red one on an elevator, light the background of the image blue and the top of the part red leaving the middle of the part dark, allowing several planes of features to be detected.
+The feed from the USB camera is analyzed using OpenCV. The gears analzed with this machine are all machined from single pieces of steel. This lack of color contrast makes feature detection somewhat difficult. Two LED disks, a blue one mounted to the lower clamp-rotor and a red one on an elevator, light the background of the image blue and the top of the gear red leaving the middle of the part dark, allowing several planes of features to be detected.
 
 {% include elements/figure.html image="assets/gears/contrast.png" caption="Column and camera view (on screen) showing blue and red contrast"%}
 
