@@ -72,7 +72,7 @@ The camera (Arducam B0498) and lens (50 mm) are mounted to two separate elevator
     </div>
 </div>
 
-The feed from the USB camera is analyzed using OpenCV. The gears analzed with this machine are all machined from single pieces of steel. This lack of color contrast makes feature detection somewhat difficult. To remedy this difficulty, the parts are backlit with a blue LED disk. The blue light disk is mounted to the lower clamp-rotor. An elevator with a red LED disk is used to light specific planes of the gears. These two disks light the background of the image blue and the top of the part red leaving the middle of the part dark, allowing several planes of features to be detected.
+The feed from the USB camera is analyzed using OpenCV. The gears analzed with this machine are all machined from single pieces of steel. This lack of color contrast makes feature detection somewhat difficult. Two LED disks, a blue one mounted to the lower clamp rotor and a red one on an elevator, light the background of the image blue and the top of the part red leaving the middle of the part dark, allowing several planes of features to be detected.
 
 {% include elements/figure.html image="assets/gears/contrast.png" caption="Column and camera view (on screen) showing blue and red contrast"%}
 
