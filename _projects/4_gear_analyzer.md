@@ -1,5 +1,5 @@
 ---
-name: Gear Analyzer
+name: Gear Analysis Fixture
 tools: [SolidWorks, Rapid Prototyping, CNC Machining, OpenCV]
 image: /assets/gears/thumbnail.png
 permalink: /projects/gear_analyzer
