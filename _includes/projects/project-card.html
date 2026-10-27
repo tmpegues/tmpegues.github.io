@@ -11,12 +11,14 @@
   {%- endif -%}
 
 {%- else -%}
-  {%- assign card_style = project.color | prepend: 'bg-' -%}
-    {%- if project.color != 'light' -%}
-      {%- assign text_style  = 'text-white' -%}
-      {%- assign badge_style = 'badge-light text-' -%}
-      {%- assign badge_style = badge_style | append: project.color -%}
-    {%- endif -%}
+  {%- if post.style == 'fill' -%}
+    {%- assign card_style = project.color | prepend: 'bg-' -%}
+      {%- if project.color != 'light' -%}
+        {%- assign badge_style = 'badge-light text-' -%}
+        {%- assign badge_style = badge_style | append: project.color -%}
+      {%- endif -%}
+  {%- endif -%}
+
 {%- endif -%}
 
 {%- comment -%} Determine project URL {%- endcomment -%}
