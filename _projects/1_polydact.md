@@ -140,10 +140,10 @@ During early development, flex values were read using a Raspberry Pi Pico 2's AD
 Polydact would look much different without conversations, advice, and assistance from the following people. They all have my gratitude and thanks.
 
 * Day Lekberg, for sewing lessons
-* <a href="https://gregaiosa.github.io/" target="_blank">Greg Aiosa</a> (also MSR '26), for discussions on materials and general 3D printing expertise
+* {% include elements/ext_link.html link="https://gregaiosa.github.io/" text="Greg Aiosa"%} (also MSR '26), for discussions on materials and general 3D printing expertise
 * Joshua Lantz, for sewing assistance
-* <a href="https://ncknight-un.github.io/" target="_blank">Nolan Knight</a> (also MSR '26), for mechatronics discussions
+* {% include elements/ext_link.html link="https://ncknight-un.github.io/" text="Nolan Knight Aiosa"%} (also MSR '26), for mechatronics discussions
 * Raphael Cherney for general help with fabricating many parts
 
 ## References
-[1] Z. Wang, "SpiRobs: Logarithmic spiral-shaped robots for versatile grasping across scales," *Device*, vol. 3, April 2024, <a href="https://www.cell.com/device/fulltext/S2666-9986(24)00603-3" target="_blank">doi:10.1016/j.device.2024.100646</a>
+[1] Z. Wang, "SpiRobs: Logarithmic spiral-shaped robots for versatile grasping across scales," *Device*, vol. 3, April 2024, {% include elements/ext_link.html link="https://www.cell.com/device/fulltext/S2666-9986(24)00603-3" text="doi:10.1016/j.device.2024.100646"%}

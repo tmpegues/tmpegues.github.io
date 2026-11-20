@@ -2,7 +2,7 @@
 name: Jenga Player
 tools: [ OpenCV, Python, ROS 1, SolidWorks ]
 image: /assets/jenga/jenga.gif
-permalink: /projects/jenga_player
+permalink: /projects/jenga
 description: Designed and built a robot arm to play Jenga
 ---
 
