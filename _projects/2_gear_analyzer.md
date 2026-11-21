@@ -3,7 +3,7 @@ name: Gear Analysis Fixture
 tools: [SolidWorks, Rapid Prototyping, CNC Machining, OpenCV]
 image: /assets/gears/thumbnail.png
 permalink: /projects/gear_analyzer
-description: Automated gear analysis fixture for production quality checking
+description: Automated gear analysis fixture
 ---
 
 ## Overview

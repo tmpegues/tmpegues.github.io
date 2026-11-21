@@ -3,7 +3,7 @@ name: Polydact, A Flexible New Finger
 tools: [Mechatronics, OnShape, Python, Rapid Prototyping, ROS 2, Sewing]
 image: /assets/polydact/preview.gif
 permalink: /projects/polydact
-description: Designed and built a flexible supernumerary finger and sensor glove to expand the dexterity of a human hand.
+description: Designed and built prosthetic tentacle and sensor glove to expand the dexterity of a human hand
 ---
 GitHub repo here: {% include elements/button.html link="https://github.com/tmpegues/polydact" text="GitHub" style="secondary" size="sm" %}
 

@@ -4,7 +4,8 @@
   <!-- Remote Projects -->
   {% for remote_project in page.remote_projects %}
 
-    {%- for repo in site.github.public_repositories -%}
+    {%- for repo in site.github.repositories -%}
+    {{repo.name}}
 
       {%- if remote_project == repo.name -%}
 
@@ -36,7 +37,6 @@
 
   <!-- Local Projects -->
   {% for project in site.projects %}
-
     {%- assign project_type  = "local" -%}
     {%- assign project_id    = project.name | slugify -%}
     {%- assign project_img   = project.image -%}

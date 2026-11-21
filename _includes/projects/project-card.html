@@ -29,7 +29,13 @@
 {%- endif -%}
 
 <div class="wow animated fadeIn" data-wow-delay=".15s">
-  <a href="{{ project_url }}" class="project card {{ card_style }}" {%- if project.external_url and site.open_new_tab -%} target="_blank" {%- endif -%}>
+  {%- if project.external_url and site.open_new_tab -%}
+  <a href="{{ project_url }}" class="project card {{ card_style }}"  target="_blank">
+  {%- else -%}
+
+
+  <a href="{{ project_url }}" class="project card {{ card_style }}">
+  {%- endif -%}
     {%- if project_img -%}
     <img id="{{ project_id }}-img" class="card-img-top" src="{{ project_img }}" alt="{{ project_name }}" />
     {%- endif -%}
