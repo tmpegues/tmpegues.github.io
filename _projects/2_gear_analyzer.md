@@ -7,9 +7,9 @@ description: Automated gear analysis fixture
 ---
 
 ## Overview
-{% include elements/ext_link.html link="https://www.productiverobotics.com/" text="Productive Robotics "%} designs and fabricates many of parts and assemblies in house for their robots; these parts require quality and feature analysis before being deemed production ready. Gear analysis used to be a manual process; the most skilled employee analyzed a gear in two minutes, but even that employee occasionally made mistakes, especially when switching from one gear type to another. This machine was created to automate the gear analysis process.
+{% include elements/ext_link.html link="https://www.productiverobotics.com/" text="Productive Robotics "%} designs and fabricates many of the parts and assemblies for their robots in-house; these parts require quality and feature analysis before being deemed production ready. Gear analysis used to be a manual process; the most skilled employee analyzed a gear in two minutes, but even that employee occasionally made mistakes, especially when switching from one gear type to another. This machine was created to automate the gear analysis process.
 
-Note that some parts of this machine and its purpose are proprietary and confidential. The descriptions will seem incomplete due to this.
+Note that due to the proprietary and confidential nature of some parts of this machine, some descriptions have been omitted and will seem incomplete.
 
 
 <div class="row">
